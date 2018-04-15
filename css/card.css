@@ -1,0 +1,32 @@
+h2 {
+  text-align: center;
+  font-size: 2.5rem;
+}
+h3 {
+  font-size: 1.5rem;
+}
+p {
+  font-size: 1.3rem;
+  padding-left: 1rem;
+}
+#card-container {
+  background-color: white;
+}
+.text-container {
+  /* padding: 4rem 1rem 2rem 1rem; */
+  max-height: 400px;
+  overflow: hidden;
+  word-wrap: break-word;
+}
+/* #from {
+  float: right;
+  padding-right: 1rem;
+} */
+
+img {
+  height: 400px;
+  width: 100%;
+  margin: 0;
+  float: right;
+  object-fit: cover;
+}

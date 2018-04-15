@@ -1,0 +1,49 @@
+<!doctype html>
+<html class="no-js" lang="pl">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<title></title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--I will hcnage fonts later-->
+		<link href="https://fonts.googleapis.com/css?family=Montserrat|Press+Start+2P" rel="stylesheet">
+		<link rel="stylesheet" href="css/skeleton.css">
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/card.css">
+
+	</head>
+	<body>
+		<div class="container">
+		<h1>Zbuduj kartkę dla Maciusia</h1><!--Built a card for Maciek-->
+		<div class="container">
+			<form action="">
+				<div class="row">
+					<div class="six columns">
+						<label for="title">nagłówek: </label>
+						<input type="text" id="title" name="title" placeholder="w dniu urodzin...">
+					</div>
+					<div class="six columns">
+						<label for="from">życzy: </label>
+						<input type="text" id="from" name="from">
+					</div>
+					<label for="msg">treść życzeń: </label>
+					<textarea name="message" class="u-full-width" placeholder="kochany Maciusiu..."></textarea>
+				</div>
+			</form>
+		</div>
+		<div class="">
+		<select id="image">
+	        <option value="./img/">zdjęcie 1</option>
+	        <option value="./img/">zdjęcie 2</option>
+	   </select>
+			<button id="save-button">zapisz kartkę na komputerze</button>
+		</div>
+		<div id="card-container">
+
+		</div>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.js"></script>
+		<script src="js/main.js"></script>
+	</div>
+	</body>
+</html>
