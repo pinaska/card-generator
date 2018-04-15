@@ -1,5 +1,6 @@
 # card-generator
 A simple card generator built using HTML, CSS and Vanilla JS. For my son birthday [April 26th]
+### For my son birthday [April 26th]
 --------------
 * started with cloning the Lighthouse Lab project boilerplate
 * using skeleton css framework
