@@ -1,49 +1,59 @@
 <!doctype html>
 <html class="no-js" lang="pl">
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="x-ua-compatible" content="ie=edge">
-		<title></title>
-		<meta name="description" content="">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-<!--I will hcnage fonts later-->
-		<link href="https://fonts.googleapis.com/css?family=Montserrat|Press+Start+2P" rel="stylesheet">
-		<link rel="stylesheet" href="css/skeleton.css">
-		<link rel="stylesheet" href="css/main.css">
-		<link rel="stylesheet" href="css/card.css">
-
-	</head>
-	<body>
-		<div class="container">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title></title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--I will hcnage fonts later-->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat|Press+Start+2P" rel="stylesheet">
+	<link rel="stylesheet" href="css/skeleton.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/card.css">
+</head>
+<body>
+	<!--form part-->
+	<section class="container">
 		<h1>Zbuduj kartkę dla Maciusia</h1><!--Built a card for Maciek-->
 		<div class="container">
 			<form action="">
 				<div class="row">
 					<div class="six columns">
-						<label for="title">nagłówek: </label>
-						<input type="text" id="title" name="title" placeholder="w dniu urodzin...">
+						<label for="title" id="title">nagłówek: </label>
+						<input type="text" name="title" placeholder="w dniu urodzin...">
 					</div>
 					<div class="six columns">
 						<label for="from">życzy: </label>
 						<input type="text" id="from" name="from">
 					</div>
-					<label for="msg">treść życzeń: </label>
+					<label for="msg" id="msg">treść życzeń: </label>
 					<textarea name="message" class="u-full-width" placeholder="kochany Maciusiu..."></textarea>
 				</div>
 			</form>
 		</div>
-		<div class="">
-		<select id="image">
-	        <option value="./img/">zdjęcie 1</option>
-	        <option value="./img/">zdjęcie 2</option>
-	   </select>
+		<div class="container">
+			<select id="image">
+				<option value="./img/">zdjęcie 1</option>
+				<option value="./img/">zdjęcie 2</option>
+				<option value="./img/">zdjęcie 3</option>
+				<option value="./img/">zdjęcie 4</option>
+			</select>
 			<button id="save-button">zapisz kartkę na komputerze</button>
 		</div>
-		<div id="card-container">
-
+		<!--card part-->
+		<div id="card-container" class="row">
+			<div class="one-third column text-container">
+				<h2 id="card-title"> Najlepsze życzenia!</h2>
+				<p id="card-msg">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laboreum.</p>
+				<h3 id="card-from">Love</h3>
+			</div>
+			<div class="two-thirds column">
+				<img src="./img/i-love-you.jpg" id="card-image">
+			</div>
 		</div>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.js"></script>
-		<script src="js/main.js"></script>
-	</div>
-	</body>
+	</section>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.js"></script>
+	<script src="js/main.js"></script>
+</body>
 </html>

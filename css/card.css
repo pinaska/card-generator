@@ -28,5 +28,5 @@ img {
   width: 100%;
   margin: 0;
   float: right;
-  object-fit: cover;
+  /* object-fit: cover; */
 }
